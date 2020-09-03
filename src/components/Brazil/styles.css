@@ -1,0 +1,16 @@
+.Brasil{
+    text-align: left;
+}
+.CasesBrasil{
+    text-align: left;
+
+}
+.confirmedC{
+    color: orange
+}
+.recoveredC{
+    color: var(--button-color)
+}
+.deathsC{
+    color: var(--red-color)
+}

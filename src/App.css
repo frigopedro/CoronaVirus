@@ -1,0 +1,15 @@
+@import "./components/variable/styles.css";
+
+.App{
+  background-color: var(--body-color)
+}
+.HeaderApp{
+  position: fixed;
+  width: 100%;
+  
+}
+.bodyContent{
+  padding-top: 65px;
+  display: flex;
+  justify-content: center;
+}

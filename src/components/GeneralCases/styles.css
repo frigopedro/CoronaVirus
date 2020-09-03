@@ -1,0 +1,38 @@
+.containerCases{
+    background-color: var(--container-color);
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(197, 195, 195);
+    
+    margin: 1rem;
+    font-family: 'Roboto';
+    box-shadow: 2px 7px 25px -9px rgba(0,0,0,0.62);
+    transition: all 0.5s;
+    border-left: 3px solid #1d1f3b;
+    border-right: 3px solid #1d1f3b;
+}
+#world .containerCases{
+    border-left: 3px solid red;
+}
+.containerCases h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding: 1rem ;
+    background-color: var(--title-color)
+
+}
+.containerCases h2{
+    font-size: 1.5rem;
+    
+    padding: 1rem;
+
+}
+.casesConfirmed{
+    color: orange;
+}
+.totalDeaths{
+    color: var(--red-color);
+}
+.totalRecovered{
+    color: var(--button-color)
+}
